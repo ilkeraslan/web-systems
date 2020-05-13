@@ -1,0 +1,8 @@
+table, th, td {
+	border: 4px ridge;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: lightgray;
+}
