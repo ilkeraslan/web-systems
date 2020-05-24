@@ -18,8 +18,9 @@
 			<jsp:getProperty name="stringBean" property="message" />
 		</li>
 		<li>
-			<% stringBean.setMessage("My favorite: Bar"); %> Value
-			after setting property with scriptlet: <%= stringBean.getMessage() %>
+			<% stringBean.setMessage("My favorite: Bar"); %> 
+			Value after setting property with scriptlet: 
+			<%= stringBean.getMessage() %>
 		</li>
 	</ol>
 </body>
